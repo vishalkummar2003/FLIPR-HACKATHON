@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKMATES | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> TEAM MAROONMOTH</h1>
+    </header>
+    <nav>
+        <a href="#">HOME   </a>
+        <a href="#" target="_blank">ABOUT    </a>
+        <a href="https://podcasts.google.com/" target="_blank">GOOGLE PODCASTS   </a>
+        <a href="loginsignup.html" target="_blank">LOGIN/SIGNUP</a>
+    </nav>
+    
+    <main>
+        <div>
+            <section>
+            <h1>GOOGLE PODCASTS</h1>
+            <h2>
+                Google Podcasts is a podcasting directory; this means that podcast listening apps and other podcast listening services use Google Podcasts to find podcasts and enable playback. Google Podcasts does not store your RSS feed or audio files, but rather points to the RSS feed and audio files that you have posted elsewhere.
+            </h2>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/ps-an84jQiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+            
+        </section>
+        <br><hr>
+        <section>
+           <div class="IMPORRTANCE"> <h1>
+                IMPORRTANCE OF GOOGLE PODCASTS</h1>
+                <p>
+                    <h3>
+                        Here are some advantages of using Google Podcasts:
+
+Easy to use: Google Podcasts has a simple and user-friendly interface that makes it easy to find, subscribe, and listen to your favorite podcasts.
+
+Integration with Google Assistant: Google Podcasts integrates seamlessly with Google Assistant, which means you can use voice commands to play and control your podcasts.
+
+Syncs across devices: Google Podcasts syncs your listening history and subscriptions across devices, so you can pick up where you left off on your phone, tablet, or computer.
+
+Personalized recommendations: Google Podcasts uses machine learning algorithms to provide personalized recommendations based on your listening history and preferences.
+
+Access to a vast library: Google Podcasts offers access to a vast library of podcasts, including popular shows and independent creators.
+
+Offline playback: Google Podcasts allows you to download episodes for offline playback, so you can listen to your favorite podcasts even when you're not connected to the internet.
+
+Free: Google Podcasts is completely free to use, and there are no hidden fees or subscription costs.
+                    </h3>
+                </div>
+                
+                
+        <section>
+            <h1>THE REALMAROONMOTHS</h1>
+            <img src="/Bishal.jpg" alt="" width="33%"> <h3>BISHAL KUMAR</h3>
+            <img src="/Harish.jpg" alt="" width="33%"> <h3>HARISH</h3>
+            <img src="/Dheshnan.jpg" alt="" width="33%"> <h3>DHESHNAN</h3>
+            <img src="/Surya.jpg" alt="" width="33%"> <h3>SURYA</h3>
+
+        </section>
+    </main>
+</div>
+<footer>
+    <a href="#">Contact</a>
+    <a href="#">Complain</a>
+    <a href="#">Feedbacks</a>
+    <a href="#">Liscence</a>
+
+    <a href="#">&copy; 2023 | TEAM MAROONMOTH</a>
+    
+</footer>
+    
+</body>
+</html>
+
+//css
+nav a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    text-align: center;
+    
+    
+    padding: 40px ;
+
+
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+    
+
+}
+nav a:hover{
+    color: tomato;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+
+}
+th{
+    background-color: coral;
+}
+td{
+    background-color: grey;
+}
+header{
+    
+    background-color: blueviolet;
+    padding: 40px;
+
+} 
+header h1{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: solid;
+    text-anchor: middle;
+    
+    
+}
+.IMPORTANCE{
+    background-color: aqua;
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
